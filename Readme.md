@@ -12,6 +12,10 @@ Generate mock data
 ```bash
 datagen -s schemas/schema
 ```
+Generate infinate data
+```bash
+make gen
+```
 
 
 ## Kafka command - Start PostgreSQL Server
