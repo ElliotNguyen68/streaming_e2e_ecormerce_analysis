@@ -42,12 +42,6 @@ services:
     restart: always
     networks:
       - kafka_net
-  datagen:
-    image: materialize/datagen
-    container_name: datagen
-    environment:
-      KAFKA_BROKERS: localhost:9092
-
 networks:
   kafka_net:
     driver: bridge
